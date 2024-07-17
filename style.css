@@ -1,0 +1,78 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body{
+    color: black;
+    display: grid;
+    font-family: "Montserrat", sans-serif;
+    /* grid-template-columns: auto auto auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+section{
+    margin: 0em .5em;
+    min-width: 400px;
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    /* color: black; */
+}
+
+a{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px grey solid;
+    border-radius: 20px;
+    margin-bottom: .5em;
+    transition: .2s ease all;
+    background-color: white;
+}
+
+a:hover{
+    transform:scale(1.1);
+    transition: .2s ease all;
+}
+
+li{
+    font-size:24px;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    /* display: inline-flex; */
+    /* float:left; */
+    /* flex-grow: 1; */
+    font-size: 48px;
+    margin: .2em;
+}
+
+.subtitle{
+    display:block;
+    font-size: 14px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight:normal;
+}
